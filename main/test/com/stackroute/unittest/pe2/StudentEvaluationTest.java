@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class StudentEvaluationTest {
-    StudentEvaluation studentEvaluation = new StudentEvaluation();
+    private StudentEvaluation studentEvaluation = new StudentEvaluation();
     @Test
     public void average() {
         String expected = "The average is 81.5";
